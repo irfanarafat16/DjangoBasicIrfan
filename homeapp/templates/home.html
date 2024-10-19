@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h1>Welcome to the Home Page</h1>
+    <a href="{% url 'register' %}">Register</a>
+    <a href="{% url 'custom_user_login' %}">Login</a>
+</body>
+</html>
